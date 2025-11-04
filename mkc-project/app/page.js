@@ -10,6 +10,13 @@ import UpcomingBatches from "@/components/Upcomingbatches/Upcomingbatches";
 import WhatYouLearn from "@/components/WhatYouLearn/WhatYouLearn";
 import Whymkc from "@/components/Whymkc/Whymkc";
 import CourseSubject from "@/components/CourseSubject/courseSubject";
+import SellingProduct from "@/components/SellingProduct/SellingProduct";
+import MkcNews from "@/components/MkcNews/MkcNews";
+import RealStories from "@/components/Realstories/RealStories";
+import MkcYoutube from "@/components/MkcYoutube/MkcYoutube";
+import MkcApp from "@/components/MkcApp/MkcApp";
+import OnlineCourse from "@/components/onlineCourse/onlineCourse";
+import DefenceCourses from "@/components/CourseDefenceExam/CourseDefenceExam";
 export default function Home() {
   return (
     <div>
@@ -21,7 +28,14 @@ export default function Home() {
       <UpcomingBatches />
       <Moreinnda />
       <FreeLearningCourse />
-      <CourseSubject/>
+      <CourseSubject />
+      <SellingProduct /> 
+      <MkcNews />
+      <RealStories />
+      <MkcYoutube />
+      <MkcApp />
+      <OnlineCourse />
+      <DefenceCourses/>
       <BlogPage/>
       <AppreciationMkc/>
       <Footer/>
