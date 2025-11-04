@@ -20,8 +20,8 @@ import DefenceCourses from "@/components/CourseDefenceExam/CourseDefenceExam";
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <NdaFoundation/>
+      <Header />
+      <NdaFoundation />
       <CardsPage />
       <WhatYouLearn />
       <Whymkc />
@@ -29,16 +29,16 @@ export default function Home() {
       <Moreinnda />
       <FreeLearningCourse />
       <CourseSubject />
-      <SellingProduct /> 
-      <MkcNews />
+      <SellingProduct />
       <RealStories />
       <MkcYoutube />
+      <AppreciationMkc />
       <MkcApp />
+      <BlogPage />
+       <MkcNews />
       <OnlineCourse />
-      <DefenceCourses/>
-      <BlogPage/>
-      <AppreciationMkc/>
-      <Footer/>
+      <DefenceCourses />
+      <Footer />
     </div>
   );
 }
