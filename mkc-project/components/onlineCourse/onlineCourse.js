@@ -2,7 +2,7 @@ import React from "react";
 
 const OnlineCourse = () => {
   return (
-    <div className="bg-white  text-[#333] p-6 md:p-10 shadow-sm  space-y-10">
+    <div className="bg-white  text-[#333] p-6 md:p-10 space-y-10">
       {/* Section 1 */}
       <section className="space-y-3">
         <h2 className="font-bold text-3xl text-gray-900  pl-3">

@@ -17,6 +17,8 @@ import MkcYoutube from "@/components/MkcYoutube/MkcYoutube";
 import MkcApp from "@/components/MkcApp/MkcApp";
 import OnlineCourse from "@/components/onlineCourse/onlineCourse";
 import DefenceCourses from "@/components/CourseDefenceExam/CourseDefenceExam";
+import FAQsSection from "@/components/FAQsSection/FAQsSection";
+import HelpSection from "@/components/HelpSection/HelpSection";
 export default function Home() {
   return (
     <div>
@@ -37,6 +39,8 @@ export default function Home() {
       <BlogPage />
        <MkcNews />
       <OnlineCourse />
+      <FAQsSection />
+      <HelpSection/>
       <DefenceCourses />
       <Footer />
     </div>
