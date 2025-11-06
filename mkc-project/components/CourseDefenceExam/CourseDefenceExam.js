@@ -23,7 +23,7 @@ export default function DefenceCourses() {
   const tabs = Object.keys(courses);
 
   return (
-    <div className="w-full bg-linear-to-b from-white to-blue-50  shadow-lg border border-gray-200 p-6 md:p-10 ">
+    <div className="w-full bg-linear-to-b from-white to-blue-50  border border-gray-200 p-6 md:p-10 ">
       <h2 className="text-center text-2xl md:text-3xl font-extrabold text-gray-800 mb-8">
         Best Courses for Defence Exam
       </h2>

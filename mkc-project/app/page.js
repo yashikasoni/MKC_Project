@@ -19,6 +19,7 @@ import OnlineCourse from "@/components/onlineCourse/onlineCourse";
 import DefenceCourses from "@/components/CourseDefenceExam/CourseDefenceExam";
 import FAQsSection from "@/components/FAQsSection/FAQsSection";
 import HelpSection from "@/components/HelpSection/HelpSection";
+import Subscribe from "@/components/SubscribeSection/Subscribe";
 export default function Home() {
   return (
     <div>
@@ -42,6 +43,7 @@ export default function Home() {
       <FAQsSection />
       <HelpSection/>
       <DefenceCourses />
+      <Subscribe/>
       <Footer />
     </div>
   );
